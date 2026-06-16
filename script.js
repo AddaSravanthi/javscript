@@ -66,11 +66,20 @@
 // p.innerHTML="<b>sravanthi</b>"
 // let h=document.getElementsByClassName("a")
 // console.log(h[0].innerText);
+// const change = () => {
+//     let p = document.getElementById("hii")
+//     p.innerHTML = "heyyyyyyyyyy"
+//     p.style.backgroundColor = "black"
+//     p.style.color = "white"
+// }
 const change = () => {
-    let p = document.getElementById("hii")
-    p.innerHTML = "heyyyyyyyyyy"
-    p.style.backgroundColor = "black"
-    p.style.color = "white"
+    let box = document.getElementById("i");
+
+    let r = Math.floor(Math.random() * 256);
+    let g = Math.floor(Math.random() * 256);
+    let b = Math.floor(Math.random() * 256);
+
+    box.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
 }
 
 
