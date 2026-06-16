@@ -1,4 +1,4 @@
-// // // console.log("hello sravanthi");
+// console.log("hello sravanthi");
 // // // console.log(10+6);
 // // // var a=10
 // // // var b=134.789
@@ -72,6 +72,6 @@ const change = () => {
     p.style.backgroundColor = "black"
     p.style.color = "white"
 }
-//
+
 
 
