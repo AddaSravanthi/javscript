@@ -11,31 +11,22 @@
     <div class="container">
         <h2>Registration Form</h2>
 
-        <form>
-            <label>Full Name</label>
-            <input type="text" placeholder="Enter your name" required>
+        <form onsubmit="validateForm(event)">
+            <label>userName</label>
+            <input type="text" placeholder="Enter your name" name="username">
+            
+            <label>password</label>
+            <input type="password" placeholder="Enter your password" name="password">
 
-            <label>Email</label>
-            <input type="email" placeholder="Enter your email" required>
+            
 
-            <label>Password</label>
-            <input type="password" placeholder="Enter your password" required>
+            
 
-            <label>Confirm Password</label>
-            <input type="password" placeholder="Confirm password" required>
-
-            <label>Phone Number</label>
-            <input type="tel" placeholder="Enter phone number" required>
-
-            <label>Gender</label>
-            <div class="gender">
-                <input type="radio" name="gender"> Male
-                <input type="radio" name="gender"> Female
-            </div>
-
-            <button type="submit">Register</button>
+            
+            <p id="error"></p>
+            <button type="submit">Login</button>
         </form>
     </div>
-
+<script src="script.js"></script>
 </body>
 </html>
